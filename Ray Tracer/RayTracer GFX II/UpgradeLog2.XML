@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RayTracer GFX II">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\GGNStudios\Dropbox\SALLE\3º\Gráfics2\Ray Tracer\RayTracer GFX II\RayTracer GFX II.sln">
+</Property><Property Name="Date" Value="lunes, 24 de febrero de 2014">
+</Property><Property Name="Time" Value="17:18:15">
+</Property><Property Name="Número de registro" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="RayTracer GFX II" Source="RayTracer GFX II.vcproj" Description="Converting project file 'C:\Users\GGNStudios\Dropbox\SALLE\3º\Gráfics2\Ray Tracer\RayTracer GFX II\RayTracer GFX II.vcproj'.">
+</Event><Event ErrorLevel="1" Project="RayTracer GFX II" Source="RayTracer GFX II.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="RayTracer GFX II" Source="RayTracer GFX II.vcproj" Description="Done converting to new project file 'C:\Users\GGNStudios\Dropbox\SALLE\3º\Gráfics2\Ray Tracer\RayTracer GFX II\RayTracer GFX II.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="RayTracer GFX II" Source="RayTracer GFX II.vcproj" Description="Converted">
+</Event></UpgradeLog>

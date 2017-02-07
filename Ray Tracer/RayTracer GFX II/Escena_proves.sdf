@@ -1,0 +1,155 @@
+# Escena de proves
+
+# Sistema de cordenades:
+
+# (X, Y, Z)
+#
+#  Y
+#  |
+#  |
+#  |
+#  |
+#   ---------- X
+#   \
+#    \
+#     \
+#      Z
+
+
+## Camera
+eye              (0, 0, 40)
+lookat           (0.0, 0.0, 0.0)
+up               (0.0, 1.0, 0.0)
+vpdist           3.1
+
+
+## Background color
+bgcolor          [0.05, 0.15, 0.25]
+
+## Ambient light
+amblight         [0.2, 0.2, 0.2]
+
+## Point light
+lightpos        (0.0, 9.5, 6.0)
+lightcolor       [1, 1, 1]
+
+## Point light
+lightpos        (-9.0, 0.0, 0.0)
+lightcolor       [1, 1, 1]
+
+## Blue cube
+
+cube             (-8, -10, -3) (-2, -4, 3)
+diffuse          [0.0, 0.3, 0.8]
+specular         [1, 1, 1]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+## Orange cube
+
+cube             (-6, -4, -1) (-4, -2, 1)
+diffuse          [0.2, 0.8, 0.2]
+specular         [1, 1, 1]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+## Red cube
+
+cube             (4, -10, 4) (8, -6, 8)
+diffuse          [0.8, 0.2, 0.2]
+specular         [1, 1, 1]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+## Yellow sphere
+
+sphere           (4.0, -6.0, -2.0) 4.0
+diffuse          [0.8, 0.8, 0.2]
+specular         [0.9, 0.5, 0.9]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        15
+
+## Red sphere
+
+sphere           (4.0, -0.0, -2.0) 2.0
+diffuse          [0.8, 0.2, 0.2]
+specular         [0.9, 0.5, 0.9]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        15
+
+## Green sphere
+
+sphere           (-6.0, -8.0, 7.0) 2.0
+diffuse          [0.2, 0.8, 0.2]
+specular         [0.9, 0.5, 0.9]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        15
+
+## Floor.
+
+cube             (-10, -10.1, -10) (10, -10, 10) 
+diffuse          [0.2, 0.15, 0.0]
+emission         [0.0, 0.0, 0.0]
+specular         [0, 0, 0]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+## Ceiling.
+
+cube             (-10, 10, -10) (10, 10.1, 10) 
+diffuse          [0.5, 0.5, 0.5]
+emission         [0.0, 0.0, 0.0]
+specular         [0, 0, 0]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+## Further Wall 
+
+cube             (-10.1, -10.1, -10.1) (10.1, 10.1, -10) 
+diffuse          [0.0, 0.6, 0.55]
+emission         [0.0, 0.0, 0.0]
+specular         [0, 0, 0]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+
+## (Left) Red Wall cube.
+
+cube             (-10.1, -10.1, -10) (-10, 10.1, 10) 
+diffuse          [0.35, 0.05, 0.05]
+emission         [0.0, 0.0, 0.0]
+specular         [0, 0, 0]
+reflectivity     0.0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
+## (Right) Green Wall cube.
+
+cube             (10., -10.1, -10) (10.1, 10.1, 10) 
+diffuse          [0.05, 0.50, 0.10]
+emission         [0.0, 0.0, 0.0]
+specular         [0, 0, 0]
+reflectivity     0
+refractive_index 0.0
+opacity          1.0
+Phong_exp        0
+
